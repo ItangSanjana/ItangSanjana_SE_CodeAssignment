@@ -1,0 +1,29 @@
+{
+  "background_color": "white",
+  "description": "We help you get the best talent, the right talent assessed and onboarded quicker",
+  "display": "standalone",
+  "icons": [{
+    "purpose": "maskable",
+    "sizes": "192x192",
+    "src": "./icon-192.png",
+    "type": "image/png"
+  }, {
+    "sizes": "192x192",
+    "src": "./icon-192.png",
+    "type": "image/png"
+  }, {
+    "purpose": "maskable",
+    "sizes": "512x512",
+    "src": "./icon-512.png",
+    "type": "image/png"
+  }, {
+    "sizes": "512x512",
+    "src": "./icon-512.png",
+    "type": "image/png"
+  }],
+  "name": "Solve Employment",
+  "orientation": "portrait",
+  "start_url": ".",
+  "short_name": "SE",
+  "theme_color": "#383838"
+}
