@@ -9,7 +9,7 @@ const resources = [
 self.oninstall = (event) => {
     event.waitUntil(
         caches.open(cacheName)
-        .then((cache) => cache.addAll(resources))
+        .then((cache) => {} /*cache.addAll(resources)*/)
         .catch(console.error)
     );
     self.skipWaiting();
@@ -38,7 +38,7 @@ self.onfetch = (event) => {
             .then((cache) => {
                 return fetch(request.url)
                 .then((response) => {
-                    cache.put(request, response.clone());
+                    //cache.put(request, response.clone());
                     return response;
                 })
             })
