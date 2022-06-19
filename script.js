@@ -69,7 +69,7 @@ function initWelcome(name) {
 
 window.onload = () => {
   if ("serviceWorker" in navigator) {
-      navigator.serviceWorker.register("service-worker.js")
+      navigator.serviceWorker.register("https://itangsanjana.github.io/ItangSanjana_SE_CodeAssignment/service-worker.js")
       .catch(initError)
       .finally(initApp);
   } else {
