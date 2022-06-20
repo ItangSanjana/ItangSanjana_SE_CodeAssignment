@@ -40,6 +40,10 @@ function initSignIn() {
     form.hidden = true;
     progress.hidden = false;
   };
+
+  form.querySelector(".close").onclick = () => {
+      dialog.close();
+  };
 }
 
 function initSignInButton(arg) {
